@@ -1,0 +1,49 @@
+.btntext{
+    border-radius: 20px;
+    padding: 15px 40px;
+    background-color: orangered;
+    border-style: none;
+    color: White;
+    font-weight: bolder;
+}
+.btntext:hover{
+    background-color: black;
+    transform: 0.4;
+}
+.btnin{
+    padding: 15px 40px;
+    background-color: orangered;
+    border-style: none;
+    color: White;
+    font-weight: bolder;
+    opacity: 1;
+}
+.btnin:hover{
+    background-color: aqua;
+}
+.btnicon{
+    border-radius: 20px;
+    padding: 15px 50px;
+    background-color: orangered;
+    border-style: none;
+    color: White;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+.btnicon:hover{
+    background-color:aqua;
+    transform: 0.4;
+}
+.btnsub{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    margin-right: 0px;
+    margin-left: 360px;
+}
+.btnsub:hover{
+    opacity: 0.6;
+}

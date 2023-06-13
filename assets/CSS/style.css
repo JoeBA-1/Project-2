@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("/assets/images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.listhead ul li{
+    display:inline-block;
+    padding: 5px 15px;
+}
+.listhead ul li a{
+    text-decoration: none;
+    color: white;
+}
+.listhead{
+    text-align: right;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 200px;
+    opacity: 0.5;
+}
+.listhead ul li a:hover{
+    color: black;
+}
+.One{
+    margin: 0px;
+    background-image: url("/assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.hone{
+    margin: 0px auto;
+    font-size: 90px;
+    width: 50%;
+    color: aquamarine;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+.Oneone{
+    color: white;
+
+}
+.Bfive{
+    padding-left: 17%;
+    padding-right: 20%;
+}
+.hfive{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    /* font-size: large; */
+    padding: 3px;
+}
+.inputlabel{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid orange; */
+    text-align: left;
+    opacity: 1;
+}
+.inputlabeltwo{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid orangered; */
+    text-align: left;
+    opacity: 1;
+}
+.maininput{
+    background-color: white;
+    /* border: 1px solid red; */
+    opacity: 0.8;
+    min-width: 1000px;
+    height: 200px;
+
+}
+label{
+    text-align: left;
+}
+.flexin{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.flexbtn{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.flextext{
+    padding-left: 30px;
+}
+.pad{
+    padding: 5px;
+}
+.abouttravel{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.levelone{
+    padding-top: 0px;
+    margin-top: -45px;
+}
+.habout{
+    margin: 100px auto;
+    font-size: 50px;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+}
+.habout::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #605e5e;
+    top: 50%;
+    left: -225px;
+    position: absolute;
+}
+.habout::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #605e5e;
+    top: 50%;
+    right: -225px;
+    position: absolute;
+}
+.leveltwo p{
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -50px;
+    line-height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.levelthree{
+    border: 10px solid rgb(38, 38, 118);
+    /* background-image: linear-gradient(blue, rgb(26, 26, 126)); */
+    height: 400px;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.levelfour{
+    width: 53%;
+    padding: 20px 10px 50px 10px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(8, 61, 114);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.levelfive{
+    margin-left: 50%;
+    margin-top: -57%;
+}
+.levelsix{
+    text-align: center;
+    margin-top: 30px;
+}
+.hamazing{
+    margin: 100px auto;
+    font-size: 50px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+}
+.levelamazing p{
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -50px;
+    line-height: 30px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blog{
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+}
+.blogone{
+    width: 100%; 
+    margin-left:15%;
+}
+.blogtwo{
+    background-image: url(/assets/images/blog-image.jpg);background-repeat: no-repeat; 
+    background-position:center; 
+    background-size: cover;
+    height: 400px;
+    width: 550px;
+}
+.blogtwo p{
+    width: 100px; 
+    height: 30px; 
+    background-color:darkslateblue;
+    padding-top: 10px;
+    text-align: center; 
+    opacity: 0.7;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blogthree h5{
+    text-align: left;
+    color: cadetblue;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blogthree h3{
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blogspan{
+    margin-left: 47%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blogthree p{
+    text-align: left;
+    width: 95%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.colorb{
+    color: rgb(9, 9, 65);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.blogoneone{
+    width: 100%; 
+    margin-right: 10%;
+}
+.amazing{
+    background-image: url(/assets/images/Amazing.jpg);background-repeat: no-repeat; 
+    background-position:center; 
+    background-size: cover;
+    height: 500px;
+}
+.weekendimg{
+    width: 100%;
+}
+.selectone{
+    display: flex; 
+    justify-content: center;
+}
+.selecttwo{
+    text-align: center;
+    margin: auto 60px;
+}
+.selecttwo h3{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.selecttwo p{
+    font-size: large;
+    width: 200px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.social ul li:hover{
+    cursor: pointer;
+}
+
+.social{
+    margin-left: 50px;
+}
+.Contactus{
+    background-image: linear-gradient(blue, rgb(5, 5, 55));
+}
+.layerone{
+    text-align: left;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.layers{
+    display: flex;
+    justify-content: space-around;  
+}
+.nameForm{
+    margin-left: 0px;
+    margin-right: 28px;
+    width: 45%;
+}
+#name{
+    height: 30px;
+    width: 200px;
+}
+#email{
+    height: 30px;
+    width: 200px;
+}
+.emailForm{
+    margin-right: 0px;
+    margin-left: 15px;
+    width: 45%;
+}
+#message{
+    width: 457px;
+    height: 45px;
+}
+.layertwo h2{
+    text-align: left;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.layertwohr{
+    size: 2px solid rgb(88, 86, 86);
+    width: 50%;
+    text-align: center;
+    background-color: rgb(88, 86, 86);
+}
+.copy{
+    text-align: center;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.inputw{
+    width: 200px;
+    height: 30px;
+}
+.inputwone{
+    width: 200px;
+    height: 35px;
+}
+.inputwt{
+    width: 200px;
+    height: 32px;
+}
+.listheadt ul li{
+    display:inline-block;
+    padding: 5px 15px;
+}
+.listheadt ul li a{
+    text-decoration: none;
+    color: white;
+}
+.listheadt{
+    text-align: right;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+    padding-right: 130px;
+    margin-left:50%;
+    margin-top: -20px;
+    opacity: 1;
+    /* border: 2px red solid; */
+    background-image:url(/assets/images/top_arrow.png);
+    background-repeat: no-repeat; 
+    background-position:right; 
+    background-size:1400px;
+    /* border-bottom-left-radius: 60%; */
+}
+.bestto{
+    display: flex;
+    justify-content:center;
+}
+.bestto h3{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.bestto p{
+    font-size: large;width: 370px;text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.bestt{
+    margin: 10px;
+}  
+
+
+
